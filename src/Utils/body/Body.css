@@ -1,0 +1,147 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #5fcf80;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #86db9f;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+.features {
+    padding-top: 0px;
+  }
+  
+  .features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid #eef0ef;
+    gap: 10px;
+  }
+  
+  .features .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  
+  .features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  .features .icon-box h3 a {
+    color: #37423b;
+    transition: 0.3s;
+  }
+  
+  .features .icon-box:hover {
+    border-color: #5fcf80;
+  }
+  
+  .features .icon-box:hover h3 a {
+    color: #5fcf80;
+  }
+  .section-title {
+    padding-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #9ae1af;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
+  }
+  .features .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .features .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .features .col-lg-3 {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .features .icon-box {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .features .icon-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features .icon-box i {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .features .icon-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .features .icon-box a {
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .features .icon-box a:hover {
+    color: #ffbb2c;
+  }
+  
